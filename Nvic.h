@@ -83,5 +83,10 @@ typedef enum
 
 
 }Nvic_IntType;
+typedef struct
+{
+   Nvic_IntType IntNum;
+	uint8 Priority;
+}Nvic_IntCfgType;
 
 void NVIC_Init(void);
