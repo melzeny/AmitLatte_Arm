@@ -83,3 +83,5 @@ typedef enum
 
 
 }Nvic_IntType;
+
+void NVIC_Init(void);

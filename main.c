@@ -1,8 +1,9 @@
 #include "CpuDriver.h"
+#include "Nvic.h"
 int main(void)
 {
 	
-	__asm("CPSID i");
+	Nvic_Init();
 
 	CPU_SWITCH_TO_USERMODE();
 
