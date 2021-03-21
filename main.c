@@ -1,10 +1,11 @@
 #include "CpuDriver.h"
+#include "Mcu.h"
 #include "Nvic.h"
 int main(void)
 {
 	
 	Nvic_Init();
-
+  Mcu_Init();
 	CPU_SWITCH_TO_USERMODE();
 
 	/*Write unprivilege code */
