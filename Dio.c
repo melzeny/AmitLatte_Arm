@@ -13,10 +13,6 @@ void Dio_Init(void)
 }
 
 
-void Dio_Init(void)
-{
-	 
-}
 void Dio_WriteChannel(Dio_ChannelType ChannelId, Dio_ChannelLevelType ChannelLevel)
 {
 	
